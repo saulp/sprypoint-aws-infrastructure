@@ -5,9 +5,9 @@
 
 ## TL;DR - This Actually Works
 
-🚀 **Live Infrastructure**: Both repos contain working code, not just documentation  
-📸 **Screenshots Below**: See the CI/CD pipeline deploying and the app running  
-⚡ **Demo Ready**: `terraform apply` and we're live in 15 minutes  
+**Live Infrastructure**: Both repos contain working code, not just documentation  
+**Screenshots Below**: See the CI/CD pipeline deploying and the app running  
+**Demo Ready**: `terraform apply` and we're live in 15 minutes  
 
 ## Overview
 
