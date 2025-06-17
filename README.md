@@ -1,4 +1,4 @@
-# Author: saulperdomo at gmail 2025
+# Author: Saul Perdomo
 
 > Saul's proposal for a scalable, cost-optimized containerized web application infrastructure on AWS
 
