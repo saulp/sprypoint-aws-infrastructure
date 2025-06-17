@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: saulperdomo at gmail 2025
 
 # sprypoint infrastructure deployment script
 # usage: ./deploy.sh [environment]

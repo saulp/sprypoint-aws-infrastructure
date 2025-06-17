@@ -1,6 +1,13 @@
+# SpryPoint AWS Infrastructure
 # Author: Saul Perdomo
 
-> Saul's proposal for a scalable, cost-optimized containerized web application infrastructure on AWS
+> Scalable, cost-optimized containerized web application infrastructure on AWS
+
+## TL;DR - This Actually Works
+
+🚀 **Live Infrastructure**: Both repos contain working code, not just documentation  
+📸 **Screenshots Below**: See the CI/CD pipeline deploying and the app running  
+⚡ **Demo Ready**: `terraform apply` and we're live in 15 minutes  
 
 ## Overview
 
@@ -47,6 +54,28 @@ terraform apply
 # For the impatient (like most infrastructure engineers)
 ./scripts/deploy.sh dev
 ```
+
+## Live Demo
+
+### Working CI/CD Pipeline
+
+The infrastructure includes a fully functional CI/CD pipeline that automatically deploys code changes:
+
+![CI/CD Pipeline in Action](docs/screenshots/pipeline-deploying.png)
+
+*Screenshot shows the CodePipeline successfully moving through Source → Build → Deploy stages after a git push*
+
+### Running Application
+
+The deployed application running on ECS Fargate:
+
+![Running Application](docs/screenshots/app-running.png)
+
+*Live application served through Application Load Balancer with auto-scaling ECS tasks*
+
+### Demo Availability
+
+The system is ready to demonstrate at any time - just need about 15 minutes to `terraform apply` beforehand since Aurora Serverless racks up costs when left running. The infrastructure spins up clean every time, demonstrating true Infrastructure as Code reproducibility.
 
 ## Architecture Design
 
@@ -304,7 +333,7 @@ aws ce get-cost-and-usage \
 
 ## License
 
-MIT License - See LICENSE file for details
+AGPL-3.0
 
 ---
 
