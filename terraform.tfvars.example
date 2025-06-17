@@ -1,0 +1,27 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Application Configuration
+app_name    = "sprypoint-web"
+environment = "dev"
+
+# Networking
+vpc_cidr = "10.0.0.0/16"
+
+# Container Configuration
+container_cpu    = 512
+container_memory = 1024
+min_capacity     = 2
+max_capacity     = 20
+
+# Database Configuration
+db_instance_class = "db.r6g.large"
+db_name          = "sprypoint"
+
+# Tags
+common_tags = {
+  Project     = "SpryPoint"
+  Environment = "dev"
+  ManagedBy   = "Terraform"
+  Owner       = "Saul Perdomo"
+}
